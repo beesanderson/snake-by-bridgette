@@ -1,5 +1,5 @@
-# My First Ever Snake Game!
-Welcome to my first ever rendition of the classic Snake Game written in JavaScript, HTML, and CSS!
+# Bridgette Sanderson's Snake Game
+Welcome to my first ever rendition of the classic Snake Game written in JavaScript, HTML5, and CSS3!
 
 My original intent wasn't to make this project public but as time went on due to time constraint in project development for my portfolio I am slowly and reluctantly beginning to open up some of my "private" or "personal" GitHub repositories just to show some of the work I've been doing quitely on my own.
 
