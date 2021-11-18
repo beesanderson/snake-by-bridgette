@@ -1,7 +1,7 @@
 # Bridgette Sanderson's Snake Game
 Welcome to my first ever rendition of the classic Snake Game written in JavaScript, HTML5, and CSS3!
 
-My original intent wasn't to make this project public but as time went on due to time constraint in project development for my portfolio I am slowly and reluctantly beginning to open up some of my "private" or "personal" GitHub repositories just to show some of the work I've been doing quitely on my own.
+My original intent wasn't to make this project public but as time went on due to time constraint in project development for my portfolio I am slowly and reluctantly beginning to open up some of my "private" or "personal" GitHub repositories just to show some of the work I've been doing quietly on my own.
 
 This project's future features were quite ambitious for a "rookie" such as myself as I've had alot of ideas for features but not a lot of time (if any!) to implement them. As time goes on I will continue to develop this project but as of now this is the "boilerplate" MVP of my game...aka a bit of a taste of what's to come!
 
@@ -33,3 +33,5 @@ A11yProject.com is one of the richest important resources for Web Developers in 
 
 #### Bridgette Sanderson 
 ##### 11/18/2021
+
+
