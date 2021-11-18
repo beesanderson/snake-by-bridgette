@@ -40,7 +40,7 @@ body {
     font-weight: 100;
     font-size: 2rem;
     min-height: 100%;
-    background-image: url(./images/background/favorite-backgrounds/sunbeams-square-highres.png);
+    background-image: url(/images/background/favorite-backgrounds/sunbeams-square-highres.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +190,7 @@ Layout
 /* Layout Styling/Decorations */
 
 .gameboard {
-    background-image: url(./images/background/grass/grass-grid.png);
+    background-image: url(/images/background/grass/grass-grid.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,7 +198,7 @@ Layout
 
 .snake {
     background: green;
-    background-image: url(./images/snake/snake-skin/snakeskin-green-hori.jpeg);
+    background-image: url(/images/snake/snake-skin/snakeskin-green-hori.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -206,7 +206,7 @@ Layout
 }
 
 .apple {
-    background-image: url(./images/game-features/apple.png);
+    background-image: url(/images/game-features/apple.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -386,7 +386,7 @@ button {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    background-image: url(./images/background/background-options/background-meadow-win.jpeg);
+    background-image: url(/images/background/background-options/background-meadow-win.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
