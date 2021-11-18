@@ -190,7 +190,7 @@ Layout
 /* Layout Styling/Decorations */
 
 .gameboard {
-    background-image: url("/images/background/grass/grass-grid.png");
+    background-image: url(/images/background/grass/grass-grid.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
