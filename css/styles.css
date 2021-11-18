@@ -206,7 +206,7 @@ Layout
 }
 
 .apple {
-    background-image: url(/images/game-features/apple.png);
+    background-image: url(./images/game-features/apple.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
