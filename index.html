@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/snake/favicon.ico" type="image/png">
+    <link href="/css/styles.css" rel="stylesheet">
+    <title>Bridgette's Snake Game!</title>
+</head>
+<body>
+
+    <header> 
+        <nav class="navbar">
+            <div class="game-title">
+                <h1><img class="title-icon" src="/images/snake/green-snake.png">nake</h1>
+                <p class="game-subtitle">A classic game rendition in JavaScript by Bridgette Sanderson</p>
+            </div>
+            <a href="#" class="toggle-button" id="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/index.html" class="active-page">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/high-scores.html">High Scores</a></li>
+                    <li><a href="/html/mode-info.html">Mode FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header> <!--- /end NAVBAR CODE END -->
+
+
+    <main>
+        <div class="player-score">
+            <h2 class="score-heading">
+                Score: 
+                <span id="score">0</span>
+            </h2>
+            <h2 class="message-board null-display"></h2>
+        </div>
+
+        
+
+
+        <div class="gameboard">
+
+            <div class="grid"></div>
+
+        </div>
+
+
+
+        <div class="btn-container margin-auto" id="btn-container">
+
+            <button class="btn-start" id="btn-start">Start</button>
+
+            <button class="btn-hardcore" id="btn-hardcore">Hard Mode</button>
+
+            <button class="btn-quit" id="btn-quit">Quit</button>
+
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

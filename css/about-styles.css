@@ -1,0 +1,38 @@
+
+/* Just for Margin */ 
+.site-wrapper {
+    margin: 1.5em;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 800px;
+    background: rgb(0, 128, 0, .2);
+    border-radius: 10px;
+}
+
+.content-styles,
+.content-styles h1,
+.content-styles h2 {
+    background: rgb(153, 235, 255, .7);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    font-weight: 100;
+}
+
+.sidebar-container {
+    margin: 3rem 1.5em 3rem .5em;
+    width: 30%;
+}
+
+.main-container {
+    margin: 3rem .5em 3rem 1.5em;
+    /* flex: 1;
+    overflow: auto; */
+}
+
+.score-container {
+    margin: 0;
+}
+

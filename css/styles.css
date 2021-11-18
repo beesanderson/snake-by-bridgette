@@ -1,0 +1,424 @@
+/* 
+==================
+Table Of Contents:
+================== 
+*/
+
+/*
+    1. Standard Selectors
+    2.  Typography
+            i. Modifier Classes
+    3.  Layout
+            i.  Contains Btn-Container
+                specs
+            ii. Layout Styling and Deco-
+                rations. i.e. background 
+                images/animations
+    4.  Navbar
+           i. Including Hamburger Menu
+              and Media Queries
+    5. Buttons
+*/ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    min-height: 100%;
+    background-image: url(/images/background/favorite-backgrounds/sunbeams-square-highres.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+
+/* 
+=================
+Typography 
+================= 
+*/
+
+header {
+    background: rgb(0, 179, 0, .2);
+    text-align: center;
+}
+
+.title-icon {
+    height: 1em;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 5px;  
+}
+
+.game-title {
+    /* background: rgb(0, 179, 0, .2); */
+    font-size: 4rem;
+    margin: .5rem;
+    font-weight: 100;
+}
+
+.game-subtitle {
+    margin-top: -2rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.player-score {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    padding: 2rem;
+
+}
+
+.message-board {
+    font-size: 4rem;
+    text-align: center;
+    padding: 1.2rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* Modifier Classes */
+
+.opacity {
+        opacity: 0.4;
+        position:relative;
+        z-index: -5;
+}
+
+.restore {
+    position: static;
+    z-index: auto;
+
+}
+
+.null-display {
+    display: none;
+}
+
+.restore-display {
+    display: block;
+}
+
+
+
+
+/* 
+=================
+Layout
+================= 
+*/
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    /* border: solid #fff 2px; */
+    border: solid 2px rgba(255,255,255, .5);
+    margin: 0 auto;
+    background: rgba(13, 95, 13, 0.7);
+}
+
+.gameboard {   
+    width: 90%;
+    margin: 0 auto 3rem auto;
+    padding: 10rem;
+    max-width: 600px;
+    box-sizing: border-box;
+    font-size: 7rem;
+    color:#fff;
+    font-weight: 900;
+    text-align: center;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+
+}
+
+.btn-container {
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+/* actual buttons are in button section */ 
+
+
+
+
+/* Layout Styling/Decorations */
+
+.gameboard {
+    background-image: url("/images/background/grass/grass-grid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.snake {
+    background: green;
+    background-image: url(/images/snake/snake-skin/snakeskin-green-hori.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.apple {
+    background-image: url(/images/game-features/apple.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+/* 
+=================
+Navbar
+================= 
+*/
+
+.game-title {
+    /* background: rgb(0, 179, 0, .2); */
+    font-size: 4rem;
+    margin: .5rem;
+    font-weight: 100;
+}
+
+.game-subtitle {
+    margin-top: -2rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  #004D00;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 2.1rem;
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #004D00;
+    padding: 1rem;
+    display: block;
+    font-weight: 600;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(0, 179, 0, .2);
+}
+
+.active-page {
+    border-bottom: 1px solid #004D00;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    /* display: none; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 35px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #004D00;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+
+
+    header {
+        margin-left: -.5rem;
+        margin-top: -.5rem;
+        background: rgb(0, 179, 0, .0);
+    }
+
+    .game-title {
+        background: rgb(0, 179, 0, .2);
+        
+    }
+
+    .game-subtitle {
+        margin-left: .5rem;
+        padding-bottom: .5rem;
+        padding-right: .5rem;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    /* keep from pushing content down when active */
+    nav ul li {
+        position: relative;
+    }
+
+    nav ul li:hover {
+        box-shadow: 2em 0px 50px rgba(255, 255, 102, .7), -2em 0px 50px rgba(255, 255, 0, .7);
+        background-color:rgb(255, 255, 255, 1);
+    }
+
+
+    nav ul {
+        position: absolute;
+        width: 100%;
+    }
+    /* end end insert to keep content in place */
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        background: rgb(0, 179, 0, .2);
+        margin-top: -.5rem;
+        width: 283px;
+    }
+    .navbar-links li {
+        text-align: left;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .active-page{
+        /* width: 95px; */
+        border: none;
+        background:rgb(0, 179, 0, .2);
+    }
+
+    .active-page
+    .active-page {
+        display: block;
+        opacity: .5;
+        font-size: 3rem;
+    }
+
+
+}
+
+
+
+
+/* 
+=================
+Buttons
+================= 
+*/
+
+button {
+    padding: 1.3rem 3rem;
+    margin: 0 0rem;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    background-image: url(/images/background/background-options/background-meadow-win.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    color: rgba(0, 153, 51, 1);
+    box-shadow: 2em 0px 50px rgba(255, 255, 102, .7), -2em 0px 50px rgba(255, 255, 0, .7);
+}
+
+
+
+
+
+
+
+
+
+/* 
+=================
+================= 
+*/
+
+
+
+
+
+/* 
+=================
+================= 
+*/
